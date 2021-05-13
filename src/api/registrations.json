@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Egon Olsen",
+    "work_hours_per_week": 37,
+    "registration_list": [
+      { "week" : 1, "hours": [7.5, 7.5, 7.5, 8.0, 9.0] },
+      { "week" : 2, "hours": [3.5, 4.5, 7.5, 7.5, 5.0] },
+      { "week" : 3, "hours": [7.5, 7.5, 7.5, 7.5, 7.0] },
+      { "week" : 4, "hours": [6.0, 6.5, 4.5, 11.0, 3.0] },
+      { "week" : 5, "hours": [7.4, 7.4, 7.4, 7.4, 7.0] }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Benny Frandsen",
+    "work_hours_per_week": 30,
+    "registration_list": [
+      { "week" : 1, "hours": [6.5, 6.5, 6.5, 6.5, 4.0] },
+      { "week" : 2, "hours": [3.5, 4.5, 7.5, 7.5, 5.0] },
+      { "week" : 3, "hours": [6.0, 6.0, 0.0, 7.5, 7.0] },
+      { "week" : 4, "hours": [7.0, 8.5, 11.5, 0.0, 0.0] },
+      { "week" : 5, "hours": [7.5, 7.5, 7.5, 7.5, 0.0] }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Kjeld Jensen",
+    "work_hours_per_week": 40,
+    "registration_list": [
+      { "week" : 1, "hours": [8.0, 8.0, 8.0, 8.0, 8.0] },
+      { "week" : 2, "hours": [8.0, 8.5, 8.5, 7.5, 5.0] },
+      { "week" : 3, "hours": [7.5, 7.5, 11.5, 8.5, 8.0] },
+      { "week" : 4, "hours": [10.0, 10.5, 14.5, 7.0, 3.0] },
+      { "week" : 5, "hours": [0.0, 0.0, 0.0, 0.0, 0.0] }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Yvonne Jensen",
+    "work_hours_per_week": 36,
+    "registration_list": [
+      { "week" : 1, "hours": [7.5, 7.5, 7.5, 7.5, 7.0] },
+      { "week" : 2, "hours": [8.5, 9.5, 0.5, 0.5, 12.0] },
+      { "week" : 3, "hours": [9.5, 8.5, 10.5, 12.5, 7.0] },
+      { "week" : 4, "hours": [7.0, 7.0, 10.5, 11.0, 3.0] },
+      { "week" : 5, "hours": [7.4, 7.2, 7.1, 7.14, 7.16] }
+    ]
+  }
+]
