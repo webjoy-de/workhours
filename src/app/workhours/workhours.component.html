@@ -1,0 +1,15 @@
+<div class="container">
+<table *ngIf="workhoursData" class="table">
+  <tr>
+    <th>Name</th>
+    <th class="text-end">Workhours per week</th>
+    <th class="text-end">Registered</th>
+  </tr>
+  <tr *ngFor="let wd of workhoursData">
+    <td>{{wd.name}}</td>
+    <td class="text-end">{{wd.work_hours_per_week}}</td>
+    <td class="text-end">{{wd| sumWorkhours | number:'1.2-2'}}</td>
+  </tr>
+</table>
+</div>
+
